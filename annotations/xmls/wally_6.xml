@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<annotation>
+  <filename>wally_6.jpg</filename>
+  <size>
+    <width>2048</width>
+    <height>1454</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1715</xmin>
+      <ymin>408</ymin>
+      <xmax>1754</xmax>
+      <ymax>452</ymax>
+    </bndbox>
+  </object>
+</annotation>
