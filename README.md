@@ -23,6 +23,8 @@ $ python /path/to/models/research/object_detection/dataset_tools/create_pet_tf_r
 $ python /path/to/models/research/object_detection/legacy/train.py -train_dir=trained_model --pipeline_config_path=wally.config
 ```
 
+See also https://towardsdatascience.com/how-to-find-wally-neural-network-eddbb20b0b90
+
 ## Usage
 
 ```
