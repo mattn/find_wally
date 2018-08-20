@@ -33,7 +33,7 @@ $ find_wally -model /path/to/tensorflow-object-detection-model.pb wally-evaluate
 
 ## Requirements
 
-Tensorflow 1.8
+Tensorflow 1.9
 
 ## Installation
 
