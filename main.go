@@ -81,7 +81,9 @@ func (c *circle) At(x, y int) color.Color {
 
 func main() {
 	var modelfile string
+	var output string
 
+	flag.StringVar(&output, "output", "output.jpg", "output file")
 	flag.StringVar(&modelfile, "model", "", "model file")
 	flag.Parse()
 	if flag.NArg() != 1 || modelfile == "" {
@@ -162,7 +164,7 @@ func main() {
 		}
 		draw.DrawMask(canvas, bounds, img, image.ZP, c, image.ZP, draw.Over)
 	}
-	out, err := os.Create("output.jpg")
+	out, err := os.Create(output)
 	if err != nil {
 		log.Fatal(err)
 	}
